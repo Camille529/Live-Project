@@ -1,15 +1,40 @@
 # Cyber Security Live-Project
 
 ## Introduction to Live Project
-For two weeks .... 
-
-
+For two weeks, I was part of a Cyber Security team working along side other team members from different departments. I joined the ongoing project and had multiple opportunities to test security measures and analyze malicious files. I utlized the OWASP Juice Shop web application to practice different injection techniques and finding security vulnerabilities. Along side that, I utilized Burp Suite to log into different accounts with credentials and bypass CAPTCHA requirements. I was also sent malicious email files and utilzied Wireshark to analyze them to see what viruses they contained. 
 
 ## OWASP Juice Shop App
-I used this webiste to practice eithical hacking with SQL injection, Null Byte Injection, Interception attacks, and much more. 
+Here is some of my work on the web application showing SQL injection, Null Byte Injection, Interception attacks, finding hidden files, and downloading the hidden file. These also include some incident reports I wrote.
+
+
+![Screenshot 2023-11-01 122529](https://github.com/Camille529/Live-Project/assets/140553322/c4007486-e32e-4331-b9e8-2bf6ae672c6a)
+
+
+This was a hidden file that would only open as a specific file. I used Null Byte Injection to open and download it:
+
+![Screenshot 2023-11-01 224629](https://github.com/Camille529/Live-Project/assets/140553322/1a7698de-0e53-4545-b4ac-1d1a2eb80f08)
+
+![Screenshot 2023-11-01 224649](https://github.com/Camille529/Live-Project/assets/140553322/0074c17a-b209-4cda-abc2-569fe557617c)
+
+This is where I used Burp Suite to bypass the CAPTCHA request:
+
+![Screenshot 2023-10-28 163659](https://github.com/Camille529/Live-Project/assets/140553322/9067dbeb-3aae-4a9d-99c8-ad480c77cdc8)
+
+
+![Screenshot 2023-10-28 164058](https://github.com/Camille529/Live-Project/assets/140553322/c2069142-5181-4095-b3e6-bfbb11eef44a)
+
+
+![Screenshot 2023-10-28 164147](https://github.com/Camille529/Live-Project/assets/140553322/dba64c83-b0d7-450a-bf07-0b8d374e122e)
+
 
 ## Wireshark
-I used this application to perform packet analysis and to find files that contained viruses.
+Here is some of my work analyzing the malicious files and some incident reports I wrote. 
+
+![Screenshot 2023-10-27 155606](https://github.com/Camille529/Live-Project/assets/140553322/e437e558-9970-4275-a344-d08ecf655555)
+
+[INCIDENT REPORT_ CM-18083-Malware-Analysis.pdf](https://github.com/Camille529/Live-Project/files/13301000/INCIDENT.REPORT_.CM-18083-Malware-Analysis.pdf)
+
+
+
 
 ## Other Skills Learned
-This was my first time workign within a DevOps team and I thoroughly enjoyed it! I joined the ongoing project and was able to see and hear what my other team members were working on. 
